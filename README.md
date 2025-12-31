@@ -15,6 +15,8 @@ Analisis difokuskan pada hubungan antara efisiensi bahan bakar (mpg) dan berat m
 
 ## Struktur Project
 Struktur folder project adalah sebagai berikut:
+
+```text
 project-akhir-statpro/
 ├── data/
 │   └── mtcars.csv
@@ -30,7 +32,7 @@ project-akhir-statpro/
 │   ├── scatter_wt_mpg.png
 │   └── regresi_wt_mpg.png
 └── README.md
----
+```
 
 ## Cara Menjalankan Project
 1. Pastikan R dan RStudio telah terinstal.
@@ -55,6 +57,7 @@ project-akhir-statpro/
 ## Kesimpulan
 Berdasarkan hasil analisis, dapat disimpulkan bahwa berat mobil memiliki pengaruh yang signifikan terhadap efisiensi bahan bakar. 
 Project ini menunjukkan penerapan analisis statistik dasar menggunakan bahasa pemrograman R secara terstruktur dan reproducible.
+
 
 
 

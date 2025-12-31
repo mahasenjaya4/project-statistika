@@ -47,16 +47,55 @@ project-akhir-statpro/
 ---
 
 ## Hasil dan Interpretasi
-- Statistik deskriptif menunjukkan nilai rata-rata mpg sekitar 20 yang menggambarkan efisiensi bahan bakar mobil.
-- Uji normalitas Shapiro-Wilk menunjukkan bahwa data mpg berdistribusi normal.
-- Analisis korelasi menunjukkan hubungan negatif antara berat mobil dan efisiensi bahan bakar.
-- Model regresi linier menunjukkan bahwa berat mobil berpengaruh signifikan terhadap nilai mpg dengan nilai R-squared yang cukup tinggi.
+
+### Statistik Deskriptif
+**Output:**
+- Histogram distribusi mpg
+- Boxplot mpg
+  
+![Histogram MPG](results/histogram_mpg.png)
+![Boxplot MPG](results/boxplot_mpg.png)
+
+**Interpretasi:**
+- Mean dan median menggambarkan nilai pusat mpg.
+- Standar deviasi, range, dan kuartil menunjukkan variasi data.
+- Modus tidak ditentukan karena data numerik kontinu.
+
+### Uji Normalitas
+**Output:**
+- Q–Q plot distribusi mpg
+
+![Q-Q Plot MPG](results/qqplot_mpg.png)
+
+**Interpretasi:**
+- Berdasarkan uji Shapiro–Wilk dan Q–Q plot, data efisiensi bahan bakar (mpg) berdistribusi normal.
+  
+### Analisis Korelasi
+**Output:**
+- Scatter plot hubungan antara berat kendaraan (wt) dan efisiensi bahan bakar (mpg)
+
+![Scatter WT vs MPG](results/scatter_wt_mpg.png)
+
+**Interpretasi:**
+- Terdapat hubungan negatif yang kuat antara berat kendaraan (wt) dan efisiensi bahan bakar (mpg).
+  
+### Regresi Linier
+**Output:**
+- Scatter plot dengan garis regresi antara wt dan mpg
+
+![Regresi WT vs MPG](results/regresi_wt_mpg.png)
+
+**Interpretasi:**
+- Model regresi linier sederhana menunjukkan hubungan antara berat kendaraan (wt) dan efisiensi bahan bakar (mpg).
+- Koefisien regresi bernilai negatif, yang berarti setiap kenaikan berat kendaraan akan menurunkan efisiensi bahan bakar.
+- Nilai R-squared menunjukkan bahwa model regresi cukup baik dalam menjelaskan variasi efisiensi bahan bakar.
 
 ---
 
 ## Kesimpulan
 Berdasarkan hasil analisis, dapat disimpulkan bahwa berat mobil memiliki pengaruh yang signifikan terhadap efisiensi bahan bakar. 
 Project ini menunjukkan penerapan analisis statistik dasar menggunakan bahasa pemrograman R secara terstruktur dan reproducible.
+
 
 
 

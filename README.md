@@ -1,6 +1,7 @@
 # Project Akhir Statistika dan Probabilitas
 
 ## Identitas
+
 ```text
    - Nama        :Gede Maha Pradipta Senjaya
    - Nim         :2515101001
@@ -96,6 +97,7 @@ project-akhir-statpro/
 ## Kesimpulan
 Berdasarkan hasil analisis, dapat disimpulkan bahwa berat mobil memiliki pengaruh yang signifikan terhadap efisiensi bahan bakar. 
 Project ini menunjukkan penerapan analisis statistik dasar menggunakan bahasa pemrograman R secara terstruktur dan reproducible.
+
 
 
 
